@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "license-processor"
+version = "0.1.0"
+description = ""
+authors = ["brdv <brdv@pm.me>"]
+readme = "README.md"
+packages = [{include = "license_processor"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytesseract = "^0.3.10"
+opencv-python = "^4.7.0.72"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
